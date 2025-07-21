@@ -1,13 +1,10 @@
-# Nome da automação
 name: Deploy React App to GitHub Pages
 
-# Gatilho: rodar sempre que houver um push na branch 'main'
 on:
   push:
     branches:
       - main
 
-# Permissões para a Action poder publicar no seu repositório
 permissions:
   contents: read
   pages: write
