@@ -9,6 +9,7 @@ export interface AppState {
 
 export const initialState: AppState = {
   membros: [
+    { id: 1, nome: "Alice" },
   ],
   projetos: [
     { id: 1, nome: "Projeto de Teste" },
