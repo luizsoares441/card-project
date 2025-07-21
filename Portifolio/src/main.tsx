@@ -6,7 +6,7 @@ import { DataProvider } from './context/mockContext.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <HashRouter>
+    <HashRouter basename='/card-project/'>
       <DataProvider>
         <App />
       </DataProvider>
