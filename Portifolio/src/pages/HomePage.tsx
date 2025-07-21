@@ -1,5 +1,3 @@
-// src/pages/HomePage.tsx
-
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useData } from '../context/mockContext';
