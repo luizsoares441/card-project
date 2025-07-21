@@ -1,0 +1,99 @@
+.coluna-container {
+    width: 272px;
+    margin: 0 8px;
+    padding: 8px;
+    flex-shrink: 0;
+    background-color: #f4f5f7;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    max-height: calc(100vh - 150px);
+}
+
+.coluna-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 8px;
+    margin-bottom: 8px;
+}
+
+.coluna-titulo {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 4px 8px;
+}
+
+.coluna-cartoes-lista {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    flex-grow: 1;
+    min-height: 20px;
+}
+
+.add-card-btn {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    background: none;
+    border: none;
+    border-radius: 4px;
+    text-align: left;
+    cursor: pointer;
+    color: #5e6c84;
+}
+
+.add-card-btn:hover {
+    background-color: #091e4214;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.submit-btn {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.delete-column-btn {
+    background: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    color: #6c757d;
+    padding: 0 4px;
+    line-height: 1;
+    border-radius: 4px;
+}
+
+.delete-column-btn:hover {
+    color: #dc3545;
+    background-color: #e9ecef;
+}
